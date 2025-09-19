@@ -15,15 +15,22 @@ No backend integration is included — the app uses mock booking data (JSON).
 ✓ Tech Stack
 
 React Native (TypeScript)
+
 React Navigation (basic navigation)
+
 Mock JSON data (for bookings)
+
 Custom theme (centralized in theme/)
+
 
 
 ✓ Findings from src/
 Booking screens implemented
+
 BookingsScreen.tsx
+
 BookingDetailScreen.tsx
+
 MyBooking.tsx
 
 **Reusable booking components**
@@ -40,12 +47,16 @@ ScreenHeader.tsx
 
 **Mock data present**
 _assets/bookings.json (sample booking data).
+
 api/bookingsApi.ts (likely consuming mock data)._
 
 **Supporting structure**
 _types/booking.ts → Type definitions for bookings.
+
 constants/bookingtabs.ts & filtertabs.ts → Config-driven UI.
+
 theme/ → Centralized theme styling.
+
 navigation/RootNavigator.tsx → Handles navigation between screens._
 
 ✓ Matches client requirements
