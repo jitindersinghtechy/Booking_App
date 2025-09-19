@@ -31,21 +31,7 @@ Custom theme (centralized in theme/)
 
 
 📂 Folder Structure
-.
-├── src/
-│   ├── screens/              # App screens (Bookings, BookingDetail, MyBooking)
-│   ├── components/           # Reusable UI components
-│   ├── assets/               # Mock data + icons/images
-│   ├── types/                # TypeScript types
-│   ├── constants/            # Tabs, filters, constants
-│   ├── api/                  # Mock API (loads JSON)
-│   ├── navigation/           # Navigation setup
-│   ├── theme/                # Theme configuration
-│   └── helper/               # Utility functions
-├── App.tsx                   # Entry point
-├── package.json              # Dependencies
-├── tsconfig.json             # TypeScript config
-└── README.md                 # Project documentation
+![alt text](image.png)
 
 
 🚀 Getting Started
@@ -73,13 +59,13 @@ npm run android
 (Add your screenshots inside a new screenshots/ folder and update the paths below)
 
 Bookings Screen
-(assets/icons/Avaialblebooking.png)
+![alt text](Avaialblebooking.png)
 
 Booking Detail
-(assets/icons/bookingDetails.png)
+![alt text](bookingDetails.png)
 
 My Bookings
-(assets/icons/Mybooking.png)
+![alt text](Mybooking.png)
 
 🔑 Notes & Assumptions
 
