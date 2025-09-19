@@ -11,6 +11,7 @@ Use mock data to simulate booking workflows.
 
 No backend integration is included — the app uses mock booking data (JSON).
 
+
  
 ✓ **Tech Stack**
 
@@ -24,6 +25,7 @@ Custom theme (centralized in theme/)
 
 
 
+
 ✓ **Findings from src/**
 Booking screens implemented
 
@@ -32,6 +34,7 @@ BookingsScreen.tsx
 BookingDetailScreen.tsx
 
 MyBooking.tsx
+
 
 **Reusable booking components**
 BookingCard.tsx
@@ -49,6 +52,7 @@ ScreenHeader.tsx
 _assets/bookings.json (sample booking data).
 
 api/bookingsApi.ts (likely consuming mock data)._
+
 
 **Supporting structure**
 _types/booking.ts → Type definitions for bookings.
