@@ -11,25 +11,7 @@ Use mock data to simulate booking workflows.
 
 No backend integration is included — the app uses mock booking data (JSON).
 
-
-✓ Client Requirements Checklist
-
- UI Implementation → Booking list, booking detail, and my bookings screens implemented. 
  
- Mock data → Stored in assets/bookings.json.
- 
- Technology → React Native (latest) with TypeScript.
- 
- Code structure → Organized into screens/, components/, assets/, types/, etc.
- 
- Reusable components → BookingCard, FilterTabs, BookingHeader, etc.
- 
- No backend integration → Uses mock data only.
- 
- Scalable design → Reusable and modular structure.
-
-
-
 ✓ Tech Stack
 
 React Native (TypeScript)
@@ -46,10 +28,15 @@ MyBooking.tsx
 
 **Reusable booking components**
 BookingCard.tsx
+
 BookingHeader.tsx
+
 BookingActionButtons.tsx
+
 FilterTabs.tsx
+
 ScreenHeader.tsx
+
 
 **Mock data present**
 _assets/bookings.json (sample booking data).
