@@ -1,5 +1,5 @@
 **Booking App (React Native)**
-📌 Overview
+🐱‍👤 Overview
 This project implements several booking-related pages based on the new Figma designs. The goal is to demonstrate the ability to:
 
 
@@ -9,7 +9,7 @@ Use mock data to simulate booking workflows.
 No backend integration is included — the app uses mock booking data (JSON).
 
 
-✅ Client Requirements Checklist
+✓ Client Requirements Checklist
 
  UI Implementation → Booking list, booking detail, and my bookings screens implemented. 
  
@@ -27,7 +27,7 @@ No backend integration is included — the app uses mock booking data (JSON).
 
 
 
-🛠 Tech Stack
+✓ Tech Stack
 
 React Native (TypeScript)
 React Navigation (basic navigation)
@@ -35,7 +35,7 @@ Mock JSON data (for bookings)
 Custom theme (centralized in theme/)
 
 
-✅ Findings from src/
+✓ Findings from src/
 Booking screens implemented
 BookingsScreen.tsx
 BookingDetailScreen.tsx
@@ -58,7 +58,7 @@ constants/bookingtabs.ts & filtertabs.ts → Config-driven UI.
 theme/ → Centralized theme styling.
 navigation/RootNavigator.tsx → Handles navigation between screens.
 
-✅ Matches client requirements
+✓ Matches client requirements
 
 UI implementation: Booking pages & detail screens exist.
 Mock data: Provided (bookings.json).
@@ -72,7 +72,7 @@ No backend integration: Uses mock data only.
 ![alt text](image.png)
 
 
-🚀 Getting Started
+💻 Getting Started
 1. Clone the repo
 git clone <your-repo-url>
 cd <project-folder>
@@ -84,12 +84,10 @@ yarn install
 
 3. Run the app
 For iOS:
-
 pod-install
 npm run ios
 
 For Android:
-
 npm run android
 
 
@@ -108,14 +106,6 @@ My Bookings
 🔑 Notes & Assumptions
 
 Only core booking screens were implemented (not every booking status).
-Navigation flow kept minimal — enough to demonstrate screen linking.
+Navigation flow kept minimal enough to demonstrate screen linking.
 Mock data is used to simulate API responses.
 Some design assumptions were made where Figma details were ambiguous.
-
-📋 Evaluation Criteria
-This implementation was developed with attention to:
-UI Accuracy → Matches Figma designs.
-Code Quality → TypeScript, modular structure, clear separation of concerns.
-Reusability → Component-driven design.
-User Flow → Smooth navigation between booking screens.
-Completeness → Covers booking list, booking detail, and example flows.
