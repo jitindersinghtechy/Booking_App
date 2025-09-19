@@ -1,0 +1,135 @@
+{
+  "booking": [
+    {
+      "id": "bkg_001",
+      "title": "GPU Ride",
+      "from": "161 Elizabeth St, Sydney",
+      "to": "1 Kent St Sydney",
+      "date": "2025-04-14",
+      "time": "02:00",
+      "status": "upcoming",
+      "price": "₹33.96",
+      "carrier": "BlueLine Logistics",
+      "notes": "Handle with care — fragile items",
+      "tags": [
+        { "label": "Last Minute", "color": "#e91e63" },
+        { "label": "Preferred", "color": "#3f51b5" }
+      ],
+      "label": [{ "label": "Early Morning", "color": "#212121" }]
+    },
+    {
+      "id": "bkg_002",
+      "title": "GPU Ride",
+      "from": "161 Elizabeth St, Sydney",
+      "to": "1 Kent St Sydney",
+      "date": "2025-09-10",
+      "time": "14:30",
+      "status": "completed",
+      "price": "₹88.200",
+      "carrier": "TransGo",
+      "tags": [
+        { "label": "Last Minute", "color": "#e91e63" },
+        { "label": "Preferred", "color": "#3f51b5" }
+      ],
+      "label": [
+        { "label": "Early Morning", "color": "#212121" },
+        { "label": "Airport", "color": "#212121" }
+      ]
+    },
+    {
+      "id": "bkg_003",
+      "title": "GPU Ride",
+      "from": "1 Kent St Sydney",
+      "to": "161 Elizabeth St, Sydney",
+      "date": "2025-09-25",
+      "time": "07:45",
+      "status": "upcoming",
+      "price": "₹15,600",
+      "carrier": "MedExpress",
+      "notes": "Temperature controlled",
+      "tags": [
+        { "label": "Preferred", "color": "#3f51b5" }
+      ],
+      "label": [
+        { "label": "Late Night", "color": "#212121" }
+      ]
+    },
+    {
+      "id": "bkg_004",
+      "title": "GPU Ride",
+      "from": "1 Kent St Sydney",
+      "to": "Ahmedabad india mumabai",
+      "date": "2025-08-30",
+      "time": "11:15",
+      "status": "completed",
+      "price": "₹22,000",
+      "carrier": "City Movers",
+      "tags": [
+        { "label": "Open", "color": "#4caf50" }
+      ],
+      "label": []
+    },
+    {
+      "id": "bkg_005",
+      "title": "GPU Ride",
+      "from": "Nagpur",
+      "to": "Jaipur",
+      "date": "2025-09-19",
+      "time": "16:30",
+      "status": "upcoming",
+      "price": "₹9,800",
+      "carrier": "AgroTrans",
+      "notes": "Refrigerated transport",
+      "tags": [
+        { "label": "Open", "color": "#4caf50" }
+      ],
+      "label": []
+    }
+  ],
+  "active": [
+    {
+      "id": "bkg_001",
+      "title": "GPU Ride",
+      "from": "161 Elizabeth St, Sydney",
+      "to": "1 Kent St Sydney",
+      "date": "2025-04-14",
+      "time": "02:00",
+      "status": "upcoming",
+      "price": "₹15,600",
+      "carrier": "MedExpress",
+      "notes": "Temperature controlled",
+      "tags": [
+        { "label": "Preferred", "color": "#3f51b5" }
+      ],
+      "label": [
+        { "label": "Early Morning", "color": "#212121" },
+        { "label": "Airport", "color": "#212121" }
+      ],
+      "confirmTextBold": "Come back to confirm your booking anytime between:",
+      "confirmText": " ",
+      "confirmTime": "10:00 PM - 1:00 AM",
+      "highlight": false
+    },
+    {
+      "id": "bkg_001",
+      "title": "GPU Ride",
+      "from": "161 Elizabeth St, Sydney",
+      "to": "1 Kent St Sydney",
+      "date": "2025-04-14",
+      "time": "07:45",
+      "status": "upcoming",
+      "price": "₹15,600",
+      "carrier": "MedExpress",
+      "notes": "Temperature controlled",
+      "tags": [
+      ],
+      "label": [
+        { "label": "Early Morning", "color": "#212121" }
+      ],
+      "confirmTextBold": "Confirm your early morning booking anytime between:",
+      "confirmText": " ",
+      "confirmTime": "3:30 PM - 7:30 PM",
+      "highlight": true
+    }
+  ]
+}
