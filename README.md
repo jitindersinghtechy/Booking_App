@@ -1,4 +1,4 @@
-Booking App (React Native)
+**Booking App (React Native)**
 📌 Overview
 This project implements several booking-related pages based on the new Figma designs. The goal is to demonstrate the ability to:
 
