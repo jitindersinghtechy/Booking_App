@@ -79,7 +79,7 @@ yarn install
 3. Run the app
 For iOS:
 
-npx pod-install
+pod-install
 npm run ios
 
 For Android:
