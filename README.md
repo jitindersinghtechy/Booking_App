@@ -12,7 +12,7 @@ Use mock data to simulate booking workflows.
 No backend integration is included — the app uses mock booking data (JSON).
 
  
-✓ Tech Stack
+✓ **Tech Stack**
 
 React Native (TypeScript)
 
@@ -24,7 +24,7 @@ Custom theme (centralized in theme/)
 
 
 
-✓ Findings from src/
+✓ **Findings from src/**
 Booking screens implemented
 
 BookingsScreen.tsx
